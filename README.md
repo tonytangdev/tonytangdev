@@ -103,6 +103,5 @@
   
 
 ------
-Credits: [smir45](https://github.com/smir45)
-
-Last edited on: 18/08/2021
+  
+README inspired by [smir45](https://github.com/smir45)
