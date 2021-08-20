@@ -21,8 +21,6 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugins_errors_fatal: ${{ github.repository == 'tonytangdev/tonytangdev' }}
-          output_action: pull-request
-          delay: 120
 
       # Display isometric calendar (365 days)
       - name: 📅 Isocalendar plugin (full year)
@@ -35,8 +33,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugins_errors_fatal: ${{ github.repository == 'tonytangdev/tonytangdev' }}
-          output_action: pull-request
-          delay: 120
           
      # Display your latest tweets (token required)
       # Don't forget to update your GitHub profile with your twitter username
@@ -48,8 +44,5 @@ jobs:
           token: NOT_NEEDED
           user: .user.twitter
           plugin_tweets: yes
-          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_tweets_user: github
           plugins_errors_fatal: ${{ github.repository == 'tonytangdev/tonytangdev' }}
-          output_action: pull-request
-          delay: 120
