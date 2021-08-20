@@ -1,0 +1,55 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    if: "github.repository == 'tonytangdev/tonytangdev'"
+    steps:
+       # Display isometric calendar (180 days)
+      - name: 📅 Isocalendar plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugins_errors_fatal: ${{ github.repository == 'tonytangdev/tonytangdev' }}
+          output_action: pull-request
+          delay: 120
+
+      # Display isometric calendar (365 days)
+      - name: 📅 Isocalendar plugin (full year)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugins_errors_fatal: ${{ github.repository == 'tonytangdev/tonytangdev' }}
+          output_action: pull-request
+          delay: 120
+          
+     # Display your latest tweets (token required)
+      # Don't forget to update your GitHub profile with your twitter username
+      - name: 🐤 Tweets plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.tweets.svg
+          token: NOT_NEEDED
+          user: .user.twitter
+          plugin_tweets: yes
+          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
+          plugin_tweets_user: github
+          plugins_errors_fatal: ${{ github.repository == 'tonytangdev/tonytangdev' }}
+          output_action: pull-request
+          delay: 120
