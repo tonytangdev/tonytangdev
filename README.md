@@ -87,6 +87,25 @@
 
 <br />
 
+
+## 💻 Some of my projects
+
+### [Frontend mentor challenge](https://www.frontendmentor.io/) - Sunnyside agency landing page
+![](https://raw.githubusercontent.com/tonytangdev/fm-sunnyside-agency/main/screenshot.png)
+Live site : [https://fm-sunnyside-agency.vercel.app/](https://fm-sunnyside-agency.vercel.app/)
+
+
+### [Frontend mentor challenge](https://www.frontendmentor.io/) - Order Summary Page
+![](https://raw.githubusercontent.com/tonytangdev/fm-order-summary/main/screenshot.png)
+Live site : [https://fm-order-summary.vercel.app/](https://fm-order-summary.vercel.app/)
+
+
+### [Frontend mentor challenge](https://www.frontendmentor.io/) - Tip Calculator App
+![](https://raw.githubusercontent.com/tonytangdev/fm-calculator-app/main/screenshot.png)
+Live site : [https://fm-calculator-app-i3chmjzyb-tonytangdev.vercel.app/](https://fm-calculator-app-i3chmjzyb-tonytangdev.vercel.app/)
+
+<br />
+
 ## 📅 Isometric commit calendar
 
 The *isocalendar* plugin displays an isometric view of your commits calendar, along with a few additional stats like current streak and commit average per day.
