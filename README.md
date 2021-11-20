@@ -60,7 +60,6 @@
 <code><img height="40" width="50" src="https://logodownload.org/wp-content/uploads/2017/11/amazon-web-services-logo.png"></code>
 <code><img height="40" width="40" src="https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png"></code>
 <code><img height="40" width="40" src="https://docs.amplify.aws/assets/logo-dark.svg"></code>
-<code><img height="40" width="50" src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-Logo.png"></code>
 
 <br/>
 
