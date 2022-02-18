@@ -101,23 +101,6 @@ Live site : [https://fm-order-summary.vercel.app/](https://fm-order-summary.verc
 ### [Frontend mentor challenge](https://www.frontendmentor.io/) - Tip Calculator App
 ![](https://raw.githubusercontent.com/tonytangdev/fm-calculator-app/main/screenshot.png)
 Live site : [https://fm-calculator-app-i3chmjzyb-tonytangdev.vercel.app/](https://fm-calculator-app-i3chmjzyb-tonytangdev.vercel.app/)
-
-<br />
-
-## 📅 Isometric commit calendar
-
-The *isocalendar* plugin displays an isometric view of your commits calendar, along with a few additional stats like current streak and commit average per day.
-
-<table>
-  <td align="center">
-    <img src="https://github.com/tonytangdev/tonytangdev/blob/main/metrics.plugin.isocalendar.svg">
-    <details><summary>Full year version</summary>
-      <img src="https://github.com/tonytangdev/tonytangdev/blob/main/metrics.plugin.isocalendar.fullyear.svg">
-    </details>
-    <img width="900" height="1" alt="">
-    
-  </td>
-</table>
   
 
 ------
