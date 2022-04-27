@@ -11,7 +11,7 @@
   <img align="right" height="250" width="400" alt="GIF" src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/code.gif">
 </a>
 
-- 🔭 I’m currently working at **[Planity](https://www.planity.com/)** as a **Lead Web Developer**
+- 🔭 I’m currently working at **[Planity](https://www.planity.com/)** as a **Tech Lead Web Developer**
 - 🌱 I’m currently learning **NextJS** and **AWS Services**
 - 👯 I’m looking to collaborate on **Web Development** and **Cloud Development**
 - 💬 Ask me about Anything [here](https://github.com/tonytangdev/tonytangdev/issues/1)! I am happy to help.
