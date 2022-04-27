@@ -22,6 +22,7 @@
 
 
 <p align="center">  
+  <img src="https://www.codementor.io/m-badges/tonytangdev/contact-me.svg" alt="code mentor" />
   <img src="https://komarev.com/ghpvc/?username=tonytangdev" alt="tonytangdev" />
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/tonytangdev?label=Followers&style=social">
   <img src="https://img.shields.io/github/stars/tonytangdev?label=Stars" alt="Total Stars">
